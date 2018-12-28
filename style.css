@@ -1,0 +1,158 @@
+*{
+    margin: 1;
+    padding: 0;
+}
+body{
+    font-family: tahoma;
+    color: black;
+    
+}
+
+.hero{
+    position: absolute;
+    width: 1200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: white;
+    margin-left: 20px;
+}
+
+.main-nav{
+    list-style-type: none;
+    float: right
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.main-nav li a{
+    color: white;
+    font-size: 90%;
+    font-weight: bold;
+    font-style: tahoma;
+    text-decoration: none;
+    font-weight: 60px;
+}
+
+.logo img{
+   height: 100px;
+    float: left;
+    margin-top: 30px;
+    margin-left:50px;
+}
+
+.main-nav li a:hover{
+    color: #E45A67;
+    border-bottom: 2px solid #E45A67;
+    transition: all 0.2s ease-in;
+    padding: 15px 0;
+}
+
+.btn {
+    border: 1px solid #E45A67;
+    margin-right:15px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #E45A67;
+    border-radius: 12px;
+    
+}
+
+.button{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.btn-half:hover{
+ background-color: #E45A67;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.btn-full:hover{
+ background-color: #E45A67;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+.copy{
+    width: 70%; 
+    margin-left: 15%;
+    margin-bottom: 20px;
+    
+}
+h3:after{
+    width: 100px;
+    height: 2px;
+    background-color: #E45A67;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.features h3{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.arranging{
+    text-align: justify;
+    
+}
+.features i{
+    font-size: 50px;
+    color: #E45A67;
+    margin-left: 35%;
+}
+.features h4{
+    margin-left: 40px;
+}
+.col-md-3{
+    margin-right: 90;
+}
+.meal-showcase{
+    
+    list-style: none;
+    width: 100%;
+    
+}
+.meal-showcase li{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo{
+    widows: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s;
+    
+}
+
+.meal{
+    margin-top: 10%;
+}
+.pic img{
+    width: 40%;
+    margin-left: 50%;
+}
